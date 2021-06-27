@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <h1>Create An Account</h1>
+</head>
+
+<body>
+    <form>
+        <script src="script.js"></script>
+        <div>
+            <label>First name<input required placeholder="First name" type="text" /></label>
+        </div>
+        <div>
+            <label for="Last name">Last name</label>
+            <input required placeholder="Last name" type="text" id="Last name" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" required placeholder="Email" type="email" />
+        </div>
+        <div>
+            <label for="Username">Username</label>
+            <input required placeholder="Username" type="text" id="Usename" />
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input required placeholder="Password" type="password" id="Password" minlength="10" />
+        </div>
+        <label for="birth date">Birth date</label>
+        <input required="birth date" type="date" id="birth date" name="Birth date" />
+        <div>
+            <label for="How happy are you?">How happy are you?</label>
+            <input required="How happy are you?" type="range" id="How happy are you?" step="10" />
+        </div>
+        <div>
+            <label for="What is your fav.color?">What is your fav. color?</label>
+            <input required="What is your fav. color?" type="color" id="What is your fav. color?" />
+        </div>
+        <input type="submit" value="Create Account" />
+    </form>
+</body>
+
+</html>
